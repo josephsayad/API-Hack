@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="UTF-8">
+	  <title>API Hack</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poiret+One|Damion"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bevan"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <!--  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> --> 
+	  <link rel="stylesheet" href="css/style.css"/>
+	  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+	  <script src="js/jquery-2.1.4.js"></script>
+	  <script src="js/app.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 hack-header"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 hack-form-container">
+          <div class="hack-logo"><i class="fa fa-headphones fa-4x"></i></div>
+          <div class="row sub-row-one">
+            <div class="col-xs-10 col-xs-offset-1">
+              <h1 class="hero-header well">Let's Expose New Music Together</h1>
+            </div>
+          </div>
+          <div class="row sub-row-two">
+            <div class="col-xs-5 col-xs-offset-1 info-box-modal hidden-sm hidden-xs">
+              <p class="well lead">This application communicates with the TasteKid API, in conjunction with the YouTube API, to provide the individual user a video that pertains to new, personalized music. Simply enter your name, the name of an artist you are fond of, and hit submit. Then, press on a thumbnail that intrigues you. You will be directed to some new content by a recommended artist!</p>
+            </div>
+            <div class="col-md-5 col-md-offset-0 col-xs-10 col-xs-offset-1 form-container">
+              <form class="input-form" action="user-input">
+                <input class="user-name input-lg col-xs-12" type="text" placeholder="Enter Your Name" required/>
+                <br/>
+                <input class="artist-name input-lg col-xs-12" type="text" placeholder="Enter Name of Artist" required/>
+                <br/>
+                <button class="btn btn-md btn-primary col-sm-5 col-sm-offset-3 col-xs-12">Submit</button>
+              </form>
+            </div>
+          </div>      
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 status-container">
+          <div class="row sub-row-one">
+            <div class="col-sm-12 status lead hidden-xs">
+              <div class="user-status">Your_Name</div>
+              <h4>likes</h4>
+              <div class="artist-status">Artist_Name,</div>
+              <h4>And may also like:</h4>
+            </div>
+            <div class="col-xs-12 status lead visible-xs">
+              <h4 class="mobile-status lead">You may like:</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 data-display">
+        </div>
+      </div>
+      <div class="row">
+        <footer class="col-xs-12"></footer>
+      </div>
+    </div>
+  </body>
+</html>
