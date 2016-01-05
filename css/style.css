@@ -103,7 +103,7 @@ body {
 .featured-artist {
   margin-top: 4em;
   background-color: rgba(39, 41, 49, 1);
-  height: 20em;
+  height: 100%;
 }
 .artist-header {
   font-size: 1.2em;
@@ -116,6 +116,18 @@ body {
   font-size: 0.9em !important;
   color: #f8f8ff;
 } 
+.teaser {
+  color: #f8f8ff;
+  margin-left: 2em;
+}
+.teaser > p {
+  font-family: monospace !important;
+}
+.youtube > p > a {
+  font-size: 1.5em;
+  color: rgba(195, 47, 52, 0.94) !important;
+  margin-top: 1em !important;
+}
 footer {
   height: 90px;
   background-color: rgba(195, 47, 52, 0.94);
